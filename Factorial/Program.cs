@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Factorial
 {
@@ -9,9 +9,9 @@ namespace Factorial
             Console.WriteLine("Enter the number: ");
             int a = int.Parse(Console.ReadLine());
             int fact = 1;
-            for (int x = 1; x <= a; x++)
+            for (int i = 1; i <= a; i++)
             {
-                fact *= x;
+                fact *= i;
             }
             Console.WriteLine(fact);
             Console.ReadLine();
